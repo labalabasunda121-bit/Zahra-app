@@ -1,0 +1,25 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Local configuration
+local.properties
+*.keystore
+*.jks
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zahra Space</string>
+    <string name="default_notification_channel_id">zahra_notifications</string>
+    <string name="welcome_title">Assalamu\'alaikum! 👋</string>
+    <string name="tasks_title">📋 Listku</string>
+    <string name="savings_title">💰 Tabunganku</string>
+    <string name="pets_title">🐾 Teman Virtualku</string>
+    <string name="cooking_title">🍳 Dapur Zahra</string>
+    <string name="chat_title">💬 Chat</string>
+    <string name="profile_title">👤 Profilku</string>
+    <string name="for_zahra">Untuk Zahra 💝</string>
+</resources>
