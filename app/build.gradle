@@ -24,6 +24,12 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+ 
+        packagingOptions {
+        exclude '**/libandroidx.graphics.path.so'
+        exclude '**/libdatastore_shared_counter.so'
+        }
+        
         debug {
             minifyEnabled false
             debuggable true
