@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id 'com.google.gms.google-services'
     id 'com.google.dagger.hilt.android'   // ✅ BENAR
 }
 
@@ -90,12 +89,6 @@ dependencies {
     implementation 'com.google.dagger:hilt-android:2.51'
     kapt 'com.google.dagger:hilt-compiler:2.51'
     implementation 'androidx.hilt:hilt-navigation-compose:1.2.0'
-    
-    // Firebase
-    implementation platform('com.google.firebase:firebase-bom:32.8.1')
-    implementation 'com.google.firebase:firebase-firestore-ktx'
-    implementation 'com.google.firebase:firebase-auth-ktx'
-    implementation 'com.google.firebase:firebase-storage-ktx'
     
     // Lottie
     implementation 'com.airbnb.android:lottie-compose:6.4.0'
